@@ -3,9 +3,11 @@
  * @Author: LingBlopdreame
  * @Date: 2022-04-25 11:11:48
  * @LastEditors: LingBlopdreame
- * @LastEditTime: 2022-04-26 17:33:12
+ * @LastEditTime: 2022-06-01 17:21:51
  * @FilePath: \FDC2214_ESP32\src\main.cpp
- * @Description: 
+ * @Description: 主程序，创建两个任务，并分别送入两个核并行运行运行
+ *                  + task 1: LCD GUI 显示 任务
+ *                  + task 2: 传感器读取与数据处理 任务
  */
 #include <Arduino.h>
 

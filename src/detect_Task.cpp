@@ -3,9 +3,9 @@
  * @Author: LingBlopdreame
  * @Date: 2022-04-26 13:11:31
  * @LastEditors: LingBlopdreame
- * @LastEditTime: 2022-04-28 18:02:10
+ * @LastEditTime: 2022-06-01 17:22:48
  * @FilePath: \FDC2214_ESP32\src\detect_Task.cpp
- * @Description: 
+ * @Description: 传感器读取与数据处理 任务
  */
 #include "detect_Task.h"
 

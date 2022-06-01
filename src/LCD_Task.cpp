@@ -3,9 +3,9 @@
  * @Author: LingBlopdreame
  * @Date: 2022-04-26 12:40:19
  * @LastEditors: LingBlopdreame
- * @LastEditTime: 2022-04-28 18:31:44
+ * @LastEditTime: 2022-06-01 17:22:35
  * @FilePath: \FDC2214_ESP32\src\LCD_Task.cpp
- * @Description: 
+ * @Description: LCD GUI 显示任务
  */
 #include "LCD_Task.h"
 
