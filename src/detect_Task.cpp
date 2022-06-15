@@ -3,7 +3,7 @@
  * @Author: LingBlopdreame
  * @Date: 2022-04-26 13:11:31
  * @LastEditors: LingBlopdreame
- * @LastEditTime: 2022-06-01 17:22:48
+ * @LastEditTime: 2022-06-07 22:00:12
  * @FilePath: \FDC2214_ESP32\src\detect_Task.cpp
  * @Description: 传感器读取与数据处理 任务
  */
@@ -41,7 +41,7 @@ void detect_Task(void *pvParameters) {
     uint8_t page_number;
     uint8_t status = 0;
 
-    ledcSetup(channel, freq, resolution); // 设置通道
+    ledcSetup(channel, freq, resolution);   // 设置通道
     ledcAttachPin(servo, channel);          // 将通道与对应的引脚连接
     
     bool capOk1 = capsense1.begin(0xF, 0x6, 0x5, true); //setup all four channels, autoscan with 4 channels, deglitch at 10MHz, external oscillator 
